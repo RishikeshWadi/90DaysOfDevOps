@@ -64,7 +64,8 @@ Welcome to Week 1 of the 90 Days of DevOps
     - Fiber Optic Cables: Used for high-speed internet.
     - Wi-Fi Signals: Wireless connectivity.
 
-**-------------------------------------------------------------------------------------------------------------------------------------------------**
+---
+---
 
 ### What is the TCP/IP Model?
 - TCP/IP stands for Transmission Control Protocol/Internet Protocol, which are the core protocols of the Internet.
