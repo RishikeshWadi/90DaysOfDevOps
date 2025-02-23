@@ -33,7 +33,7 @@ Security Groups are essential for controlling inbound and outbound traffic to re
 - Log in to your AWS account.
 - Navigate to the **EC2 Dashboard**.
 - In the left navigation pane, click on **Security Groups** under "Network & Security".
-
+---
 ## **Step 2: Create a Security Group**
 - Click the **Create Security Group** button.
 - Enter a **Name** and **Description** for the security group.
@@ -76,3 +76,22 @@ Outbound rules define what kind of traffic is allowed to leave the instance.
 
 ---
 
+# IAM (Identity and Access Management)
+
+## What is  IAM?
+- Identity and Access Management (IAM) is a service that enables you to securely manage access to AWS resources. 
+- It allows you to create and control users, roles, and policies to define who can access what within your AWS environment.
+---
+## Key Components of IAM:
+### Users: 
+    - Represents individual people or applications needing access to AWS resources.
+### Groups: 
+    - Collections of users that share the same permissions.
+### Roles: 
+    - Used to grant permissions to AWS services or external entities (e.g., AWS Lambda, EC2, or other AWS accounts).
+### Policies:
+    - JSON-based documents that define permissions (who can access what and with what level of permission).
+### Access Keys & MFA:
+    - Provides authentication methods, including Multi-Factor Authentication (MFA) for extra security.
+
+---
