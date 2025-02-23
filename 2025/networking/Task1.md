@@ -1,9 +1,10 @@
 # Week 1: Networking Challenge
 Welcome to Week 1 of the 90 Days of DevOps
 
-## Tasks
+## Task 1
+-[What is the OSI Model?](#what-is-the-osi-model)
 
-## 1. **Understand OSI & TCP/IP Models**
+## **Understand OSI & TCP/IP Models**
 
 ### What is the OSI Model?
 - The OSI (Open Systems Interconnection)was developed by the International Organization for Standardization (ISO).
