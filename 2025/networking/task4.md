@@ -39,9 +39,9 @@ traceroute google.com
 ```
 **Output:**
 ```sh
-1  192.168.1.1 (192.168.1.1)  2.5 ms  1.8 ms  1.7 ms
-2  10.1.1.1 (10.1.1.1)  5.6 ms  5.2 ms  5.3 ms
-3  172.217.160.142 (172.217.160.142)  15.2 ms  14.7 ms  15.0 ms
+1  a.b.c.d (a.b.c.d)  2.5 ms  1.8 ms  1.7 ms
+2  a*.b*.c*.d* (a*.b*.c*.d*)  5.6 ms  5.2 ms  5.3 ms
+3  1a*.1b*.1c*.1d* (1a*.1b*.1c*.1d*)  15.2 ms  14.7 ms  15.0 ms
 ```
 **Key Fields:**
 - Each line represents a router/hop.
