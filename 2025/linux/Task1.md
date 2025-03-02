@@ -136,6 +136,10 @@ Manages SSH login permissions.
 ```bash
 sudo useradd -m devops_user
 ```
+or
+```bash
+sudo useradd -m -s /bin/bash devops_user
+```
 - `-m` → Creates a home directory (`/home/devops_user`).  
 - `-s /bin/bash` → Assigns Bash as the default shell.
 
