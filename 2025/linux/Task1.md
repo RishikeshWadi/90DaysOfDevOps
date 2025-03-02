@@ -130,7 +130,7 @@ Manages SSH login permissions.
   - **5** → Others: Read(4) + Execute(1)  
 
 ---
-# **3. Step-by-Step Task Execution**  
+# **Step-by-Step Task Execution**  
 
 ### **Step 1: Create a User `devops_user`**
 ```bash
@@ -143,7 +143,7 @@ sudo useradd -m -s /bin/bash devops_user
 - `-m` → Creates a home directory (`/home/devops_user`).  
 - `-s /bin/bash` → Assigns Bash as the default shell.
 
-![Verify ](https://github.com/RishikeshWadi/DevOps_Project/blob/main/CloudSecurityWithIAM/projectImages/EC2InstanceNameandTags.png)
+![Verify ](https://github.com/RishikeshWadi/90DaysOfDevOps/blob/week2-linux/2025/linux/screenshots/User-created.jpg)
 
 ### **Step 2: Create a Group `devops_team`**  
 ```bash
@@ -231,8 +231,6 @@ sudo systemctl enable --now sshd
 ```
 ---
 
-
-
 ## **Verification**  
 ### **Check User Information**  
 ```bash
@@ -240,7 +238,7 @@ id devops_user
 ```
 - This displays the UID, GID, and group memberships.  
 
-![Verify ](https://github.com/RishikeshWadi/DevOps_Project/blob/main/CloudSecurityWithIAM/projectImages/EC2InstanceNameandTags.png)
+![Verify ](https://github.com/RishikeshWadi/90DaysOfDevOps/blob/week2-linux/2025/linux/screenshots/UserAndGroupAccess.jpg)
 ### **Check Group Membership**  
 ```bash
 groups devops_user
@@ -256,7 +254,7 @@ or
 sudo -l -U devops_user
 ```
 
-![Verify ](https://github.com/RishikeshWadi/DevOps_Project/blob/main/CloudSecurityWithIAM/projectImages/EC2InstanceNameandTags.png)
+![Verify ](https://github.com/RishikeshWadi/90DaysOfDevOps/blob/week2-linux/2025/linux/screenshots/VerifySudoAccess.jpg)
 
 
 ### **Test SSH Login Restriction**  
