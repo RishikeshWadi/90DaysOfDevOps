@@ -32,7 +32,7 @@ ls -l /devops_workspace/
 
 ### 4. Expected Output
 
-![Verify ](https://github.com/RishikeshWadi/DevOps_Project/blob/main/CloudSecurityWithIAM/projectImages/EC2InstanceNameandTags.png)
+![Verify ](https://github.com/RishikeshWadi/90DaysOfDevOps/blob/week2-linux/2025/linux/screenshots/Task2_Output.jpg)
 
 ---
 
