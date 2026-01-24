@@ -63,9 +63,9 @@ I will:
 ## Resources
 
 You may refer to:
-- [TrainWithShubham Course Curriculum](https://english.trainwithshubham.com/JOSH_BATCH_10_Syllabus_v1.pdf)  
-- [TrainWithShubham DevOps Roadmap](https://docs.google.com/spreadsheets/d/1eE-NhZQFr545LkP4QNhTgXcZTtkMFeEPNyVXAflXia0/edit?gid=2073716385#gid=2073716385)  
-- Your own past experience and career aspirations  
+- TrainWithShubham [course curriculum](https://english.trainwithshubham.com/JOSH_BATCH_10_Syllabus_v1.pdf)
+- TrainWithShubham DevOps [roadmap](https://docs.google.com/spreadsheets/d/1eE-NhZQFr545LkP4QNhTgXcZTtkMFeEPNyVXAflXia0/edit?gid=2073716385#gid=2073716385)
+- Your own past experience and career aspirations
 
 > Avoid over-researching today. The focus is **clarity**, not depth.
 
