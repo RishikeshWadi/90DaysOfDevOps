@@ -127,18 +127,7 @@ systemd matters because:
 ---
 
 ## System Startup Flow
-Power On
-↓
-Bootloader (GRUB)
-↓
-Linux Kernel
-↓
-init → systemd (PID 1)
-↓
-Start Services
-↓
-User Applications
-
+Power On → Bootloader (GRUB) → Linux Kernel → [init → systemd (PID 1)] → Start Services → User Applications
 
 ---
 
